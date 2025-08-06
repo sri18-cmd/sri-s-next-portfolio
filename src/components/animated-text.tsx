@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 
 const skills = [
   "interactive websites.",
+  "organic network.",
   "efficient backend systems.",
   "user-friendly applications."
 ];
