@@ -1,61 +1,80 @@
-Personal Portfolio Website 
-A modern, animated, and fully responsive personal portfolio built with Next.js and Framer Motion.
+# Sris Next.js Developer Portfolio
 
-This repository contains the source code for my personal portfolio, designed to showcase my skills, projects, and professional journey. The site features a clean, dark-themed UI with smooth animations and a focus on user experience.
+Welcome to my personal portfolio website!  
+It’s built with **Next.js**, **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**, and is deployed using **Vercel**.
 
-Live Website: sris-next-portfolio.vercel.app
+- 🌐 **Live demo**: [https://sris-next-portfolio.vercel.app/](https://sris-next-portfolio.vercel.app/)
+- 📂 This repository contains the full source code, configuration, styling, and content files.
 
-✨ Features
-Stunning Hero Section: An engaging entry point with a custom background animation and a prominent profile picture.
+---
 
-Interactive UI: Smooth page transitions and subtle animations powered by Framer Motion.
+## 🚀 Features
 
-Structured Sections: Dedicated sections for About, Skills, Projects, and Contact, all accessible via a sleek navigation bar.
+- **Modern, responsive design** using Tailwind CSS for styling.
+- **Smooth animations** with Framer Motion.
+- **App Router** + **Server Actions** with Next.js.
+- Dedicated sections for **Home**, **About**, **Projects**, **Skills**, **Experience**, and **Contact**.
+- **Email contact form** powered by React Email + Resend.
+- **SEO optimized**, performance-focused, and accessible.
+- **Vercel Analytics** integration.
+- Built with **TypeScript** for type-safe development.
 
-Dynamic Skills Display: A visually appealing grid that showcases technical skills with logos and names.
+---
 
-Detailed Project Showcase: Project cards with descriptions, tech stacks, and direct links to live demos and GitHub repositories.
+## 🛠 Technology Stack
 
-Fully Responsive Design: The layout is meticulously optimized for a seamless experience on all devices, from mobile phones to widescreen desktops.
+| Layer        | Tools / Technologies                                |
+|--------------|------------------------------------------------------|
+| Framework    | Next.js (App Router & Server Actions)               |
+| Language     | TypeScript                                           |
+| Styles       | Tailwind CSS                                         |
+| Animations   | Framer Motion                                        |
+| Forms        | React Email + Resend                                 |
+| Hosting      | Vercel                                               |
+| Others       | React, Node.js                                       |
 
-Functional Contact Form: An integrated email form for easy communication.
+---
 
-🛠️ Tech Stack
-This project was built using a modern, industry-standard technology stack:
+## 📥 Getting Started
 
-Framework: Next.js (React Framework)
+### Clone & Install
 
-Styling: Tailwind CSS
-
-Animations: Framer Motion
-
-Deployment: Vercel
-
-🚀 Getting Started
-To get a local copy up and running, follow these simple steps.
-
-Prerequisites
-Ensure you have Node.js (v18 or higher) and npm (or yarn) installed on your machine.
-
-node -v
-npm -v
-
-Installation
-Clone the repository:
-
-git clone [https://github.com/sri18-cmd/sri-s-next-portfolio.git](https://github.com/sri18-cmd/sri-s-next-portfolio.git)
-
-Navigate to the project directory:
-
-cd sri-s-next-portfolio
-
-Install the dependencies:
-
+```bash
+git clone https://github.com/<your-username>/sris-next-portfolio.git
+cd sris-next-portfolio
 npm install
+Run Locally
+bash
+Copy
+Edit
+npm run dev
+# Open http://localhost:3000 in your browser
+Build & Preview
+bash
+Copy
+Edit
+npm run build
+npm run start
+🚀 Deployment
+This portfolio is deployed on Vercel.
 
-or if you use yarn:
+To deploy your own version:
 
-yarn install
+Push the repository to your GitHub account.
 
-Running the Application
-To start
+Go to Vercel, import your repository.
+
+Select the project, configure settings if needed, and click Deploy.
+
+Vercel will automatically build and deploy for each commit.
+
+🧩 Customization
+Personal Info: Update name, bio, and links in the components or config files inside the app directory.
+
+Projects: Modify the Projects section to include your own work.
+
+Styling: Edit tailwind.config.js for theme customization.
+
+Animations: Adjust Framer Motion configs in the relevant components.
+
+SEO: Update metadata in the head configuration for better discoverability.
