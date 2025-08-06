@@ -6,7 +6,7 @@ import Header from '@/components/header';
 import Hero from '@/components/sections/hero';
 import About from '@/components/sections/about';
 import Projects from '@/components/sections/projects';
-import Resume from '@/components/sections/resume';
+import Experience from '@/components/sections/resume';
 import Contact from '@/components/sections/contact';
 import Footer from '@/components/footer';
 
