@@ -36,7 +36,7 @@ const About = () => {
               Hello! I'm a passionate and driven B.Tech student from Greater Noida, India, with a deep love for building elegant and efficient technology solutions.
             </p>
             <p>
-              My journey in tech is fueled by a curiosity to understand how things work and a desire to create impactful applications. I'm currently in my 3rd year, specializing in AI and Full-Stack Web Development.
+              My journey in tech is fueled by a curiosity to understand how things work and a desire to create impactful applications. I'm currently in my final year, specializing in AI and Full-Stack Web Development.
             </p>
              <p>
               My goal is to leverage my skills to build innovative products that solve real-world problems and contribute to the ever-evolving world of technology.
