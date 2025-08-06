@@ -6,7 +6,7 @@ const timelineItems = [
         type: 'work' as const,
         title: 'Software Engineer Intern',
         institution: 'Tech Solutions Inc.',
-        date: 'May 2023 - Aug 2023',
+        date: 'May 2025 - July 2025',
         description: [
             'Developed and maintained features for a large-scale web application using React and Node.js.',
             'Collaborated with a team of developers to ship code in an agile environment.',
@@ -16,8 +16,8 @@ const timelineItems = [
     {
         type: 'education' as const,
         title: 'Bachelor of Technology, CSE',
-        institution: 'SRM University, AP',
-        date: '2021 - Present',
+        institution: 'Bennett University, Greater Noida',
+        date: '2022 - 2026',
         description: [
             'Specializing in Artificial Intelligence and Web Development.',
             'Relevant Coursework: Data Structures, Algorithms, Database Management Systems, Operating Systems.',
