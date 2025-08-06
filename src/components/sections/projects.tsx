@@ -1,4 +1,6 @@
 import ProjectCard from '@/components/project-card';
+import fitKiingMain from './fit kiing main.png'; 
+import todomain from './todo main.png';
 
 export interface Project {
   title: string;
@@ -14,7 +16,7 @@ const projects: Project[] = [
   {
     title: 'FIT KIING',
     description: 'A full-featured online fitness website with various features integrated and a modern UI.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: fitKiingMain,
     aiHint: 'website screenshot',
     tags: ['HTML', 'CSS', 'JavaScript'],
     demoUrl: 'https://sri18-cmd.github.io/FITKIING/',
@@ -32,7 +34,7 @@ const projects: Project[] = [
   {
     title: 'TODO-LIST',
     description: 'Developed a responsive Todo List web app with core functionalities like adding, editing, and deleting tasks via dynamic DOM manipulation.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: todomain,
     aiHint: 'dashboard chart',
     tags: ['HTML', 'CSS', 'JavaScript'],
     demoUrl: 'https://todo-list-rust-kappa-61.vercel.app/',
