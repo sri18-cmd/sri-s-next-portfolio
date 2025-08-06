@@ -61,14 +61,6 @@ const Resume = () => {
                 <TimelineItem key={index} item={item} />
             ))}
         </div>
-        <div className="text-center mt-12">
-            <Button asChild size="lg">
-                <a href="https://drive.google.com/file/d/1BIMg8V7Iz1qWxWBaZml5h1Xg6IxJeYR_/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                    <Download className="mr-2 h-5 w-5" />
-                    View My Resume
-                </a>
-            </Button>
-        </div>
       </div>
     </section>
   );

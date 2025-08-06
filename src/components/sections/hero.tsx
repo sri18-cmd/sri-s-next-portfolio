@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import AnimatedText from '@/components/animated-text';
-import { Github, Linkedin, Code } from 'lucide-react';
-import { ArrowDown } from 'lucide-react';
+import { Github, Linkedin, Code, Download, ArrowDown } from 'lucide-react';
 
 const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <svg
@@ -20,7 +19,7 @@ const Hero = () => {
     <section id="home" className="relative h-screen flex items-center justify-center text-center">
       <div className="absolute inset-0 bg-background/50 backdrop-blur-sm z-0">
          <Image 
-            src="https://placehold.co/3000x4000.png"
+            src="https://placehold.co/1920x1080.png"
             alt="Background"
             layout="fill"
             objectFit="cover"
@@ -66,12 +65,20 @@ const Hero = () => {
                 </a>
             </Button>
           </div>
-          <Button asChild size="lg" className="group">
-            <a href="#projects">
-              View My Work
-              <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
-            </a>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button asChild size="lg" className="group">
+              <a href="#projects">
+                View My Work
+                <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <a href="https://drive.google.com/file/d/1BIMg8V7Iz1qWxWBaZml5h1Xg6IxJeYR_/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                <Download className="mr-2 h-5 w-5" />
+                My Resume
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
