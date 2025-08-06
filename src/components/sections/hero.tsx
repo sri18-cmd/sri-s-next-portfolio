@@ -72,10 +72,10 @@ const Hero = () => {
                 <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
               </a>
             </Button>
-            <Button asChild size="lg" variant="outline">
+            <Button asChild size="lg" className="group">
               <a href="https://drive.google.com/file/d/1BIMg8V7Iz1qWxWBaZml5h1Xg6IxJeYR_/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                <Download className="mr-2 h-5 w-5" />
                 My Resume
+                <Download className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
               </a>
             </Button>
           </div>
