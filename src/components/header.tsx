@@ -52,7 +52,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <a href="#home" className="text-2xl font-bold font-headline text-primary">
-          SriVasanth
+          Sri Vasanth
         </a>
 
         <nav className="hidden md:flex space-x-6">

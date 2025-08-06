@@ -21,12 +21,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           <Image
-            src="https://placehold.co/150x150.png"
+            src="https://media.licdn.com/dms/image/v2/D5603AQGq1QEY5hnE9Q/profile-displayphoto-crop_800_800/B56ZhXg31NHQAM-/0/1753814893818?e=1757548800&v=beta&t=-OUBOuPJeLRlDdMrgy9t2vCDESiIBsfgJU9zvIDLY00"
             alt="Sri Vasanth Vutukuri"
             width={150}
             height={150}
             className="rounded-full mb-6 border-4 border-primary/50 shadow-lg"
-            data-ai-hint="professional photo"
           />
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 font-headline text-balance">
             Hi, I'm Sri Vasanth Vutukuri
