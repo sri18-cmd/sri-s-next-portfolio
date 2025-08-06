@@ -42,7 +42,8 @@ export function ContactForm() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      const response = await fetch("https://formspree.io/f/xqkrpker", { // Replace with your Formspree form ID
+      // IMPORTANT: Replace the URL below with your own Formspree form endpoint!
+      const response = await fetch("https://formspree.io/f/your_form_id", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -63,7 +64,7 @@ export function ContactForm() {
       toast({
         variant: "destructive",
         title: "Uh oh! Something went wrong.",
-        description: "There was a problem with your request. Please try again.",
+        description: "There was a problem with your request. Please try again or contact me directly via email.",
       });
     }
   }
