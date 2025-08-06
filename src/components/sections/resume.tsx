@@ -49,9 +49,9 @@ const TimelineItem = ({ item }: { item: typeof timelineItems[number] }) => {
     );
 };
 
-const Resume = () => {
+const Experience = () => {
   return (
-    <section id="resume" className="py-24 bg-background">
+    <section id="experience" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 font-headline">
           Experience & Education
@@ -66,4 +66,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Experience;
