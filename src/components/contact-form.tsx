@@ -42,7 +42,7 @@ export function ContactForm() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      const response = await fetch("https://formspree.io/f/mvojoyky", { // Replace with your Formspree form ID
+      const response = await fetch("https://formspree.io/f/xqkrpker", { // Replace with your Formspree form ID
         method: "POST",
         headers: {
           "Content-Type": "application/json",
