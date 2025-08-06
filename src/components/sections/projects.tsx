@@ -1,6 +1,8 @@
 import ProjectCard from '@/components/project-card';
 import fitKiingMain from './fit kiing main.png'; 
 import todomain from './todo main.png';
+import imagemain from './image prediction main.png';
+import resumemain from './resume analyzer main.png';
 
 export interface Project {
   title: string;
@@ -25,7 +27,7 @@ const projects: Project[] = [
   {
     title: 'IMAGE PREDICTION',
     description: 'A CNN Model , which predicts the image uploaded , trained using CIFAR Dataset.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: imagemain,
     aiHint: 'application interface',
     tags: ['Python', 'PIL', 'CNN', 'NumPy', 'Pandas'],
     demoUrl: 'https://github.com/sri18-cmd/IMAGE-PREDICTON',
@@ -43,7 +45,7 @@ const projects: Project[] = [
    {
     title: 'RESUME-ANALYZER',
     description: 'Developed a responsive Streamlit-based tool that evaluates resumes in real time and provides immediate, useful recommendations.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: resumemain,
     aiHint: 'blog article',
     tags: ['Python', 'Streamlit', 'PyResparser', 'PDFMiner'],
     demoUrl: 'https://github.com/sri18-cmd/RESUME-ANALYZER',
