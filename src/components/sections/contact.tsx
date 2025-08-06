@@ -11,8 +11,8 @@ const Contact = () => {
         </p>
         <div className="flex justify-center items-center gap-2 mb-12">
             <Mail className="h-5 w-5 text-primary"/>
-            <a href="mailto:your.email@example.com" className="text-lg text-primary hover:underline">
-                your.email@example.com
+            <a href="mailto:srivasanthvutukuri18@gmail.com" className="text-lg text-primary hover:underline">
+                srivasanthvutukuri18@gmail.com
             </a>
         </div>
         <ContactForm />

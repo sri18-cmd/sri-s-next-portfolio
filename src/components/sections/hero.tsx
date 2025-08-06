@@ -1,15 +1,26 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import AnimatedText from '@/components/animated-text';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Code } from 'lucide-react';
 import { ArrowDown } from 'lucide-react';
+
+const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      {...props}
+    >
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
 
 const Hero = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center text-center">
       <div className="absolute inset-0 bg-background/50 backdrop-blur-sm z-0">
          <Image 
-            src="https://placehold.co/1920x1080.png"
+            src="https://placehold.co/3000x4000.png"
             alt="Background"
             layout="fill"
             objectFit="cover"
@@ -21,33 +32,38 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           <Image
             src="https://placehold.co/150x150.png"
-            alt="Your Name"
+            alt="Sri Vasanth Vutukuri"
             width={150}
             height={150}
             className="rounded-full mb-6 border-4 border-primary/50 shadow-lg"
             data-ai-hint="professional photo"
           />
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 font-headline text-balance">
-            Hi, I'm Your Name
+            Hi, I'm Sri Vasanth Vutukuri
           </h1>
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-6 text-balance">
             I build <AnimatedText />
           </p>
           <div className="flex space-x-4 mb-8">
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/sri18-cmd" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-6 w-6 hover:text-primary transition-colors" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/srivasanthvutukuri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-6 w-6 hover:text-primary transition-colors" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <Twitter className="h-6 w-6 hover:text-primary transition-colors" />
+              <a href="https://x.com/sri_vutukuri" target="_blank" rel="noopener noreferrer" aria-label="X">
+                <XIcon className="h-6 w-6 hover:text-primary transition-colors" />
               </a>
+            </Button>
+            <Button variant="ghost" size="icon" asChild>
+                <a href="https://leetcode.com/u/sriv18/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+                    <Code className="h-6 w-6 hover:text-primary transition-colors" />
+                </a>
             </Button>
           </div>
           <Button asChild size="lg" className="group">

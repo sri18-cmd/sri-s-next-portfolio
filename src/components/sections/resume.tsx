@@ -16,7 +16,7 @@ const timelineItems = [
     {
         type: 'education' as const,
         title: 'Bachelor of Technology, CSE',
-        institution: 'Your University, Greater Noida',
+        institution: 'SRM University, AP',
         date: '2021 - Present',
         description: [
             'Specializing in Artificial Intelligence and Web Development.',
@@ -63,9 +63,9 @@ const Resume = () => {
         </div>
         <div className="text-center mt-12">
             <Button asChild size="lg">
-                <a href="/resume.pdf" download>
+                <a href="https://drive.google.com/file/d/1BIMg8V7Iz1qWxWBaZml5h1Xg6IxJeYR_/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                     <Download className="mr-2 h-5 w-5" />
-                    Download My Resume
+                    View My Resume
                 </a>
             </Button>
         </div>
