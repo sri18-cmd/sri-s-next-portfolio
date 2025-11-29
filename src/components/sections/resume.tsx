@@ -4,13 +4,20 @@ import { Download, Briefcase, GraduationCap } from 'lucide-react';
 const timelineItems = [
     {
         type: 'work' as const,
-        title: 'Software Engineer Intern',
-        institution: 'Tech Solutions Inc.',
-        date: 'May 2025 - July 2025',
+        title: 'ServiceNow Developer Intern',
+        institution: 'Bangmetric LLC',
+        date: 'November 2025',
         description: [
-            'Developed and maintained features for a large-scale web application using React and Node.js.',
-            'Collaborated with a team of developers to ship code in an agile environment.',
-            'Improved API response times by 30% through query optimization.'
+            'Developed and configured multiple modules on the ServiceNow platform, including form layouts, lists, and workflows.',
+
+'Implemented UI changes such as UI Policies, UI Actions, and Form/UI customizations to enhance user experience.',
+
+'Wrote and optimized both Client-side and Server-side scripts (Client Scripts, Business Rules, Script Includes) to automate processes and enforce business logic.,
+
+'Created and configured Data Policies and UI Policies to maintain data consistency and enforce field behaviors.,
+
+'Hands-on experience in implementing platform features like Catalog Items, GlideRecord operations, and automation scripts, while continuously learning ServiceNow best practices.',
+            
         ]
     },
     {
