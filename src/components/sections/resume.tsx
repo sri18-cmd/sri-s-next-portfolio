@@ -12,9 +12,9 @@ const timelineItems = [
 
 'Implemented UI changes such as UI Policies, UI Actions, and Form/UI customizations to enhance user experience.',
 
-'Wrote and optimized both Client-side and Server-side scripts (Client Scripts, Business Rules, Script Includes) to automate processes and enforce business logic.,
+'Wrote and optimized both Client-side and Server-side scripts (Client Scripts, Business Rules, Script Includes) to automate processes and enforce business logic.',
 
-'Created and configured Data Policies and UI Policies to maintain data consistency and enforce field behaviors.,
+'Created and configured Data Policies and UI Policies to maintain data consistency and enforce field behaviors.',
 
 'Hands-on experience in implementing platform features like Catalog Items, GlideRecord operations, and automation scripts, while continuously learning ServiceNow best practices.',
             
